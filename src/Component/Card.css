@@ -1,0 +1,44 @@
+.card-stat{
+    display: flex;
+    text-align: center;
+   
+}
+.card-stat > span , .card-stat > img {
+    padding: 2px;
+}
+
+.badge{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: brown;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+    
+
+
+    padding: 10px;
+
+}
+
+
+.card-star{
+    width: 15px;
+    height: 15px;
+}
+.card-container{
+    width: 175px;
+    border: 1px solid black;
+    padding: 15px;
+    position: relative;
+   
+
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+.card-img{
+    width: 100%;
+    border-radius: 5px;
+}
